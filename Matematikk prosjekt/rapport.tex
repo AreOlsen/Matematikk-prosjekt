@@ -18,7 +18,7 @@
 		Analysere utviklinga av Atlantisk Torsk i Barentshavet.\\
 		\vskip2cm
 		Are Olsen, 2STA, Vardafjell vgs.\\
-		7100 Ord.
+		7600 Ord.
 	}
 	\vfill
 	\includegraphics[width=9cm]{Bileter/Torsk.jpg} % also works with logo.pdf
@@ -35,7 +35,7 @@ Eg ser fram til å utforske denne tematikken nærmere, og eg er ivrig etter å t
 \section{Emnet og problemstillinga.}
 Den utvalde fiskebestanden for mitt prosjekt er \textit{atlantisk torsk} som befinner seg i Barentshavet i ``ICES SUBAREA 1``.
 Hovedproblemstillinga i prosjektet mitt er å analysere korleis fiskebestanden av torsk vil utvikle seg, skape matematiske modellar som gjer det mogleg å modellere torskebestanden med hovudsakeleg omsyn til tid, og forsøke å gjere det same med andre miljø faktorar som temperatur og salinitet.
-Ikkje minst, undersøke korleis bestanden veks og minkar, når den er på det høgaste og det lågaste.
+Ikkje minst, undersøke korleis bestanden veks og minkar, når den er på det høgaste og det lågaste, et cetera.
 Vidare ynskjer eg å forsøke å anslå kva torskebestanden kan omtrentleg vere, og eventuellt anslå kor presis modellane framstilt er.
 Målet med prosjektet er å utvikle matematiske modellar og kunnskap rundt denne fiskebestanden slik at den kan bli brukt for ein berekraftig forvalting av fiskebestanden i post-oljetida i Noreg.
 \section{Hypoteser.}
@@ -70,33 +70,33 @@ Til tross for at fiskeartar kan ha komplekse tilknytingar til kvarandre, kan des
 \chapter{Analyse.}
 \section{Forandring av datasett.}
 I denne undersøkinga har det vore utfordrande å jobbe med ulike datasett og innsamlingsmetodar, som har ført til at datasettet har måtte bli korta ned til å berre innehalde data samla inn mellom 1987 og 2013. Dette har vore naudsynt på grunn av ulike start- og slutt-tider på innsamling av data og ulike innsamlingsmetodar, som har gjort det vanskeleg å samle alt data i eitt datasett. Datasettet består av data frå \textit{SJØMIL} under Havforskningsinstituttet, og er avgrensa til \textit{ICES SUBAREA 1} i Barentshavet. Sjølv om det kunne vore ønskeleg å inkludere data utanfor dette tidsområdet, var dette ikkje mogleg ettersom det kunne ha ført til ein mangel på informasjon om eventuelle anomaliar i datasettet.
-Dette datasettet fokuserer på fleire variablar, som temperatur og salinitet ved Vardø, ein kommune som ligg langs den nordlege norske kysten i Barentshavet. I tillegg inneheld datasettet informasjon om mengden zooplankton observert per kvadratmeter areal over Barentshavet i \textit{ICES SUBAREA 1}, samt mengden lodde og torsk funne i dette området.
-Sjølv om datasettet er kortare enn ønskeleg, er det viktig å merke seg at dette ikkje nødvendigvis betyr at det er dårleg eller av mindre verdi. Tvert imot inneheld datasettet mykje informasjon som kan vere korrelert og relevant for undersøkingane som skal utførast. Denne undersøkinga er ein pioner innanfor dette feltet, og den korte tidsperioden som er dekt i datasettet er ein påfølgjande krav til slike nye dataundersøkingar. \\
+Dette datasettet fokuserer på fleire variablar, som temperatur og salinitet ved Vardø, ein kommune som ligg langs den nordlege norske kysten i Barentshavet. I tillegg inneheld datasettet informasjon om mengda zooplankton observert per kvadratmeter areal over Barentshavet i \textit{ICES SUBAREA 1}, samt mengden lodde og torsk funne i dette området.
+Sjølv om datasettet er kortare enn ønskeleg, er det viktig å merke seg at dette ikkje nødvendigvis betyr at det er dårleg eller av mindre verdi. Tvert imot inneheld datasettet mykje informasjon som kan vere korrelert og relevant for undersøkingane som skal utførast. Denne undersøkinga er ein slags pioner innanfor dette feltet, og den korte tidsperioden som er dekt i datasettet er ein påfølgjande krav til slike nye dataundersøkingar. \\
 \\
 Etter å ha begrenset datasettet og samlet datasettet til eit, var datasettet ført inn i det matematiske rekneprogrammet \textit{GeoGebra} under \textit{Rekneark}-et slik at datasettet var klar for analyse og eventuelle matematiske undersøkingar.
 \begin{figure}[H]
 	\centering
 	\fbox{
-		\includegraphics[scale=0.4]{Bileter/Datasettet.png}
+		\includegraphics[scale=0.5]{Bileter/Datasettet.png}
 	}
 	\caption{Datasettet i Geogebra Rekneark.}
 	\label{F2}
 \end{figure}\newpage
 \section{Plotte data.}
-Ved å importere datasetta frå det opphavlege regnearket over til det visuelle kartesiske planet, gjennom bruk av lister og funksjonen \textit{Polylinje(liste)} i GeoGebra, vart det etablert ein metode for å generere ein meir systematisk og oversiktleg framstilling av dataa. Denne teknikken tillét ein grundigare visualisering og ein meir komplett oversikt over dei tilgjengelege datasetta og deira ulike potensielle variablar.
-Denne framgangsmåten i analysen var av særleg betydning for å kunne tilby ein meir omfattande og detaljert visuell representasjon av dataa og deira eventuelle samanhengar. Den tillét òg ein meir inngåande undersøking av ulike relasjonar mellom dei ulike datasetta, noko som ville vere vanskeleg å oppdage gjennom ein manuell analyse av regnearket.
+Ved å importere datasetta frå det opphavlege regnearket over til det visuelle kartesiske planet, også kjent som grafikk-feltet, gjennom bruk av lister og funksjonen \textit{Polylinje(liste)} i GeoGebra, vart det etablert ein metode for å generere ein meir systematisk og oversiktleg framstilling av dataa. Denne teknikken tillét ein grundigare visualisering og ein meir komplett oversikt over dei tilgjengelege datasetta og deira ulike potensielle variablar.
+Denne framgangsmåten i analysen var av særleg betydning for å kunne tilby ein meir omfattande og detaljert visuell representasjon av dataa og deira eventuelle samanhengar. Den tillét òg ein meir inngåande undersøking av ulike relasjonar mellom dei ulike datasetta, for eksempel at loddebestanden sin auking ledet i etterkant til ein auking i torskebestanden, noko som ville vere vanskeleg å oppdage gjennom ein manuell analyse av regnearket.
 Ved å ta i bruk denne tilnærminga, kunne det observerast at det var mogleg å identifisere potensielle årsaks-verknadsforhald mellom dei ulike datasetta og deira variablar. Dette ga rom for ein meir omfattande analyse av datasetta og gjorde det mogleg med djupare undersøkingar av samanhengane som eksisterte mellom dei.
 
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|l|}
 		\hline
-		\includegraphics[scale=0.133]{Bileter/Torsk.png} & \includegraphics[scale=0.133]{Bileter/Lodde.png} & \includegraphics[scale=0.133]{Bileter/loddeogtorsk.png} \\
+		\includegraphics[width=5.5cm]{Bileter/Torsk.png} & \includegraphics[width=5.5cm]{Bileter/Lodde.png} & \includegraphics[width=5.5cm]{Bileter/loddeogtorsk.png} \\
 		\hline
-		\includegraphics[scale=0.133]{Bileter/Salt.png}  & \includegraphics[scale=0.133]{Bileter/Temp.png}  & \includegraphics[scale=0.133]{Bileter/PLANKTON..png}    \\
+		\includegraphics[width=5.5cm]{Bileter/Salt.png}  & \includegraphics[width=5.5cm]{Bileter/Temp.png}  & \includegraphics[width=5.5cm]{Bileter/PLANKTON..png}    \\
 		\hline
 	\end{tabular}
-	\caption{Alle dataplottingane i det kartetiske planet.}
+	\caption{Alle dataplottingane i det kartetiske planet. (Graf har datasett-namn).}
 	\label{F3}
 \end{table}
 \section{Ulike modeller for bestanden.}
@@ -118,8 +118,8 @@ Etter å ta i bruk \textit{GeoGebra} sin innebygget regresjonsystem var det mogl
 	\caption{Første regresjonsmodell $T(t)$}
 	\label{T}
 \end{figure}
-Denne modellen tar omsyn til berre tidsperioden definert tidlegare, men ein anna modell som tar bruken av alt data og ikkje berre etter 1987 kan brukast.
-Kva for ein modell som er meir presis og praksis brukbar er diskuterbar, ettersom den sistnemnte har meir data kan den vere meir presis, men det er umogleg å vite om det oppstår nokon anomali ettersom dei andre faktorane manglar data som gjer at den kan vere meir upresis.
+Denne modellen tar omsyn til berre tidsperioden definert tidlegare (1987-2013), men ein anna modell som tar bruken av alt data og ikkje berre etter 1987 kan brukast.
+Kva for ein modell som er meir presis og praktisk brukbar er diskuterbar, ettersom den sistnemnte har meir data kan den vere meir presis, men det er umogleg å vite om det oppstår nokon anomali ettersom dei andre faktorane manglar data som gjer at den kan vere meir upresis.
 Denne sistnemnte modellen kan formulerast slik:
 \begin{center}
 	$T_{1}(t) = 393876+200559\times \sin(0.755t+1.45)tonn.$
@@ -138,19 +138,22 @@ Denne sistnemnte modellen kan formulerast slik:
 Modellar som berre nyttar årstal som inntaksverdiar for å rekna ut fiskebestand, kan ikkje betraktast som tilstrekkeleg nøyaktige. Desse modellane tek ikkje omsyn til utviklinga av andre faktorar som kan påverke bestanden. Vidare går desse modellane ut ifrå at det ikkje skjer noko utvikling over tid i fiskebestanden totalt sett, noko som ikkje alltid stemmer overeins med verkelegheita. I tillegg finst det andre farar og ulemper med desse modellane, sidan dei ikkje er i stand til å fange opp komplekse samspel mellom faktorar i havet, som til dømes temperatur og andre fiskebestandar.
 Eit mogleg tilnærming for å ta omsyn til utvikling over tid og samspel mellom faktorar, er å kombinere ein lineær regresjon med ein sinusregresjon. Likevel er dette framleis ein usikker tilnærming som ikkje nødvendigvis viser samspellet mellom faktorar i havet, og kan derfor ikkje betraktast som ei fullverdig løysing.
 Det er derfor behov for ein meir omfattande og sofistikert modell som kan ta omsyn til ei rekkje faktorar som kan påverke fiskebestanden. Ein slik modell vil krevje omfattande innsamling og analyse av data på tvers av ulike felt, inkludert økologi, biologi og meteorologi. Dette vil krevje samarbeid og samhandling mellom ulike forskingsfelt og sektorar. Ein slik modell vil imidlertid kunne gi ei meir helhetleg og nøyaktig forståing av korleis ulike faktorar påverkar fiskebestandane, og bidra til berekraftig forvaltning av desse ressursane.
+Ein slik modell vil bli konstruert på slutten av rapporten.
 \section{Veksten for fiskebestanden.}
 Dersom ein ønskjer å undersøke når torskebestanden aukar eller minkar, kan ein nytte derivasjonsteknikkar for å utforske dette fenomenet.
 Ved å derivere funksjonen som beskriv torskebestanden, vil ein kunne finne ut når den endrar seg positivt eller negativt.
-Ein positiv derivert verdi vil indikere ei auking i torskebestanden, medan ein negativ verdi vil indikere ei minking. Vidare kan ein finne ekstremalpunkt ved å løysa for den deriverte sin nullverdiar. På denne måten er det mogleg å utforska og forstå endringar i torskebestanden og korleis den utviklar seg over tid.
+Ein positiv derivert verdi vil indikere ei auking i torskebestanden, medan ein negativ verdi vil indikere ei minking. Vidare kan ein finne ekstremalpunkt ved å løysa for den deriverte sine nullverdiar. På denne måten er det mogleg å utforska og forstå endringar i torskebestanden og korleis den utviklar seg over tid.
 Kunnskap om den deriverte kan vere svært nyttig for fiskeriindustrien i post-olje tida i Noreg. Ved å ha informasjon om endringar i torskebestanden, kan ein planlegge økonomisk for framtida. Identifisering av topp-punkter gjennom nullpunktane i den deriverte kan også gi praktiske tidspunkter for fiskeaktivitet, noko som kan føre til større og meir effektiv fangst. Dette kan ha positive effekter for både fiskeriindustrien og økosystemet i havet.
 Det er verd å merka seg at derivasjon i seg sjølv ikkje gir ein fullstendig analyse av datamaterialet, men kan bidra til å finna interessante samanhengar og korrelasjonar.
 For å få ei grundigare forståing av torskebestanden og dens utvikling, må ein ta i bruk ei rekke ulike analysemetodar og vurdera resultata av desse saman. Derivasjon er dermed ein verdifull tilnærming som kan bidra til å avdekka mønster og samanhengar i datamaterialet, og bør brukast som ein del av ei meir omfattande analyse.
 \subsection{Derivasjon av regresjon.}
 Ved å nytte tidlegare nemnde modellar for torskebestand er det mogleg å utvikle ei formel som kan rekne ut vekstfarten til torskbestanden i åra etter 1987 som input.
-Modellane kan deriverast og dei deriverte funksjonane viser til den momentane vekstfarten (auking og minkinga) til torskebestanden.
+Modellane kan deriverast og dei deriverte funksjonane viser til den momentane vekstfarten (aukinga og minkinga) til torskebestanden.
 Det er viktig å merke seg at dette berre gir ein omtrentleg verdi for vekstfarten.
-Sjølv om det kan vise til vekstfarten til område utanfor det definerte tidsrommet, vil det ikkje vere heilt nøyaktig når det gjeld verkelegheita. Dette er fordi, som nemnd tidlegare, torskebestanden kan vekse på ein totalsettmåte.
-Det er mogleg å utføre ein lineær regresjon for å finne ut om torskebestanden veks på ein totalt sett måte, og verdien av lineær regresjon vil vere lik "x" i vekstfart. Men det er ikkje sikkert om dette vil vere påliteleg i verkelegheita og kor lenge denne totale veksten sett vil vare, sidan datasettet er avgrensa.
+Sjølv om det kan vise til vekstfarten til område utanfor det definerte tidsrommet, vil det ikkje vere heilt nøyaktig når det gjeld verkelegheita. Dette er fordi, som nemnd tidlegare, torskebestanden kan vekse på ein totalsettmåte, og modellen er berre ein omtrentleg estimasjon av bestanden.
+Det er mogleg å utføre ein lineær regresjon for å finne ut om torskebestanden veks på ein totalt sett måte. Men det er ikkje sikkert om dette vil vere påliteleg i verkelegheita og kor lenge denne totale veksten sett vil vare, sidan datasettet er avgrensa.
+Dermed ville dette ikkje halde påliteleg heller, og argumenterbart kanskje mindre truverdig. Ettersom den totale utviklinga av bestanden kan variere seg i sesongar også, og ein estimasjon som ikkje tar omsyn til totalsettutvikling vil dermed vere meir presis når ein grenseverdi-er tiden inn i det uendelege.
+For å undersøkje vekstraten til modellen må ein ta i bruk matematiske derivasjonsreglar.
 Ein kan derivere den første formellen gjennom å ta i bruk $kjerneregelen$, også kjent som $kjederegelen$ ($chainrule$ på eng.):
 \begin{align*}
 	T(t)  & = 526052+190105\times \sin(0.7295t+1.96)                \\
@@ -185,12 +188,15 @@ Den andre modellen sin deriverte er som følgande:
 	\fbox{
 		\includegraphics[scale=0.35]{Bileter/T1DER.png}
 	}
-	\caption{Funksjon $T_{1}(t)$ (blå) og $T_{1}'(t)$ (raud) plottet i GeoGebra.}
+	\caption{Funksjon $T_{1}(t)$ (blå) og $T_{1}'(t)$ (grønn) plottet i GeoGebra.}
 	\label{F5}
 \end{figure}
 Frå herav vil berre den originale regresjonsfunksjonen $T(t)=526052+190105\times \sin(0.7295t+1.96)$ bli brukt ettersom den har ikkje moglegheita for anomali som oppstår i andre datasett der det ikkje er data tatt opp.
 \subsubsection{Undersøke når fiskebestanden er på det høgaste/lågaste \& forandring i vekstrate.}
-I mange situasjonar kan det vere av stor verdi å vite når torskebestanden når sitt høgaste og lågaste punkt. Dette gjeld, blant anna, ekstremt mykje for fiskeriindustrien, der kunnskap om når fiskebestanden er på sitt lågaste kan vere avgjerande for økonomisk planlegging. I slike situasjonar kan det vere mindre gunstig å fiske, fordi fangstmengda kan vere lågare. Omvendt kan kunnskap om når fiskebestanden når sitt høgdepunkt, gi gode muligheter for større fangster og dermed større økonomisk avkasting. Identifisering av slike punkt kan dermed være en viktig faktor for fiskeriindustrien når det gjelder strategisk planlegging og økonomisk utbytte.
+I mange situasjonar kan det vere av stor verdi å vite når torskebestanden når sitt høgaste og lågaste punkt. Dette gjeld ekstremt mykje for fiskeriindustrien, der kunnskap om når fiskebestanden er på sitt lågaste kan vere avgjerande for økonomisk planlegging.
+I slike situasjonar kan det vere mindre gunstig å fiske, fordi fangstmengda kan vere lågare.
+Omvendt kan kunnskap om når fiskebestanden når sitt høgdepunkt, gi gode moglegheitar for større fangster og dermed større økonomisk avkasting.
+Identifisering av slike punkt kan dermed være en viktig faktor for fiskeriindustrien når det gjelder strategisk planlegging og økonomisk utbytte.
 \begin{align*}
 	T'(t) & = 190105 \times 0.7295 \times \cos(0.7295t+1.96)                                    \\
 	      & 190105 \times \cos(0.7295t+1.96)\times 0.7295 =0                                    \\
@@ -201,7 +207,7 @@ I mange situasjonar kan det vere av stor verdi å vite når torskebestanden når
 	      & 0.7295t = \pi n - \frac{\pi}{2}-1.96                                                \\
 	      & t = \frac{\pi n - \frac{\pi}{2}-1.96}{0.7295}
 \end{align*}
-Ved å undersøke dei to første $n$ verdiane av funksjonen som beskriv vekstbestanden, kan ein finne ut når veksten aukar eller minkar, og når funksjonen når sitt høgaste og lågaste punkt.
+Ved å undersøke dei to første $n$ verdiane av funksjonen som beskriv vekstbestanden når funksjonen når sitt høgaste og lågaste punkt, og derav også når veksten aukar eller minkar.
 Dei første 3 løysingane for denne $t=\frac{\pi n - \frac{\pi}{2}-1.96}{0.7295}$ likninga er $n=0$, $t_0\approx -4.84$, $n=1$, $t_1\approx -0.534$, $n=2$, $t_2\approx 3.773$.
 Her er det viktigt å merke seg at kvart $2n$ vil vere like høg i verdi hos $T(t)$ funksjonen, dette er sesongane sin topp og botnpunktar.
 Ved å settje den første $t_0$ verdien inn i funksjonen $T(t_0)$ får ein $335947tonn$, ein verdi som lågare enn konstanten til $T(t)$: $526052$. Noko som tyder til at dette er eit botnpunkt.
@@ -237,7 +243,7 @@ Dei tre første løysingane for likninga $t=\frac{\pi n -1.96}{0.7295}$ er $n=0$
 Ein effektiv måte å derivere eit datasett er å bruke numerisk derivasjon, som er ei tilnærming basert på det opphavlege datasettet, her ved hjelp av Python.
 Dette er spesielt nyttig når ein ønsker å analysere historiske data og når ein vil bruke resultatet av denne analysen i framtidige studiar av fiskebestanden i Barentshavet.
 Fordi den skaffer den deriverte over berre datasettet og ikkje modellar.
-Sjølv om denne metoden er praktisk og rask, kan det vere ein upresis tone i resultatet, ettersom den berre gir gjennomsnittlege vekstfart over året, og tar ikkje omsyn til vekstfarten i dei einskilde månadene.
+Sjølv om denne metoden er praktisk og rask, kan den vere litt upraktisk i nokre situasjonar, ettersom den berre gir gjennomsnittlege vekstfart over året, og gir ikkje innsikt til vekstfarten i dei einskilde månadene.
 Det bør òg nemnast at det siste datapunktet i datasettet ikkje kan derivere, sidan det manglar data for neste år. I samsvar med definisjonen av den gjennomsnittlege deriverte, $\frac{\Delta y}{\Delta x}=\frac{y_f-y_i}{x_f-x_i}$, kan dette ikkje reknast ut fordi det manglar data for både $y_f$ og $x_f$. Så sjølv om numerisk derivasjon kan vere ein nyttig teknikk, er det viktig å vere merksam på dens avgrensingar og å bruke den forsiktig.
 \newline\newline
 Den følgande Python-algoritme var skapt og tatt i bruk:
@@ -318,13 +324,13 @@ Svaret er då at mengda torsk som har levd i fiskebestanden over dei 27 åra har
 Ved å dele på 27, tall år, finner ein den gjennomsnittlege mengda torsk vekt målt per år i tidsrammen, $\frac{14350000tonn}{27}\approx 531481tonn \approx 530000tonn$.
 Ein viktig og nyttig kunnskap er å vite kor mykje torsk som er i barentshavet, for å finne ut dette kan ein dele på $11/1000$, dette er fordi ein gjennomsnittleg atlantisk torsk som bur ut i havet har ein vekt på $11kg$ (Mass.gov), rapporten måler i tonn så det blir delt på $1000$ for å gjere det til tonn, dette er den presise gjennomsnittlege vekt.
 Det er framleis viktig å merke seg at torsk har blitt observert til å kunne vere opptil 50 kilogram i vekt i sære spesielle tilfeller, og dette skaper ein viss usikkerheit i dataen.
-Ein kan då analysere at den generelle torskebestaden per år er omtrent rundt $\frac{530000}{11/1000}\approx 48181818torsk \approx 48000000torsk$ i mengde.
+Ein kan då analysere at den generelle torskebestaden per år er omtrent rundt $\frac{531481}{11/1000}\approx 48316454torsk \approx 48000000torsk$ i mengde.
 Det er også mogleg å modellere den momentane bestanden i torsk gjennom å ta i bruk regresjonsmodellen og denne konstante vekt verdien.
 Ein funksjon som gir torskemengda kan dermed modellerast slik $Torsk_{Mengde}(t)=\frac{T(t)}{11/1000} \rightarrow\frac{526052+190105\times \sin(0.7295t+1.96)}{11/1000}\rightarrow\frac{526052}{11/1000} + \frac{190105}{11/1000}\times \sin(0.7295t+1.96)\approx 47822909+17282272\times \sin(0.7295t+1.96)$.
 I følgje modellen vil det vere omtrent $Torsk_{Mengde}(36)\approx 48726944 \approx 49000000$ torsker i Barentshavet i starten av 2023. Sjølvsagt vil dette avvike og variere utover året, indikert av den deriverte modellen drøftet fram tidlegare.
-Vidare kan denne funksjonen utviklast til å ta inn ein sekundær variabel som forklarer konstanten, dette er nyttigt dersom det visast til at det er konstanten er upresis til røynda.
+Vidare kan denne funksjonen utviklast til å ta inn ein sekundær variabel som forklarer konstanten, dette er nyttigt dersom det visast til at konstanten er upresis til røynda.
 Denne andre funksjonen kan drøfast slik: $Torsk_{Mengde,1}(t,k)=\frac{T(t)}{k}\rightarrow \frac{526052+190105\times \sin(0.7295t+1.96)}{k}$. Der $k$ er eit reellt tall.
-Som nemnt tidlegare, det er også svært viktig å merke seg at desse mengde torsk modellane kan vere delvis upresis i verdi, ettersom den same fiska kan bli målt fleire gonger, vekten varierer frå kvar torsk og det er umogleg å vite nøyaktig kor mykje torsk det er, utan å vite kvar torsk sin vekt.
+Som nemnt tidlegare, det er også svært viktig å merke seg at desse mengde-torsk modellane kan vere delvis upresis i verdi, ettersom den same fiska kan bli målt fleire gonger, vekten varierer frå kvar torsk og det er umogleg å vite nøyaktig kor mykje torsk det er, utan å vite kvar torsk sin vekt.
 Men dette er diskuterbart framleis ein svært god estimasjon som kan vere praktisk nyttig.
 \subsection{Å anslå presisjonen til den originale regresjonsbaserte modellen gjennom integrasjon.}
 Ved å bruke dei tidlegare nemnde modellane for torskebestanden over tid, kan ein prøve å nytte integrasjonsreglar for å rekne ut den totale torskebestanden som har vorte fiska opp i målinnretningane.
@@ -347,8 +353,11 @@ For å finne kor mykje torsk som har blitt målt, i følge den regresjonsbaserte
 	                           & \approx 14449543-98884 \\
 	                           & \approx 14350659tonn
 \end{align*}
-Denne verdien er særleg nær den numeriske intregrasjonen, noko som tyder til at denne regresjonsmodellen kan halde godt på å estimere den totale målte bestanden over fleire tidsrammer.
-Ut i frå dette oppstår det viktige spørsmålet om kor presis denne tidsbaserte modellen er til røynda.
+Denne verdien er særleg nær den numeriske intregrasjonen med eit avvik på berre $14350659tonn-14350000tonn=659tonn$, noko som tyder til at denne regresjonsmodellen kan halde godt på å estimere den totale målte bestanden over fleire tidsrammer.
+Dette låge avviket på berre $659tonn$ viser ekstremt godt kor presis denne modellen er når det kjem til integrasjon og å forsøke å finne ut kor mykje torsk som er i havet i ein tidsperiode.
+Det er framleis viktig å nemne at torskebestanden kan variere og utvikle seg på metodar og vegar som modellen ikkje tar omsyn til, dette gjer at denne integrasjonsmodellen framleis halder seg litt upresis når det kjem til større tidsområder enn det som var definert tidlegare.
+Framleis er dette ein indikator til modellen kan halde presis, og dermed kan den diskuterbart vere god og praktisk brukbar.
+Ut i frå dette oppstår det viktige spørsmålet om kor presis denne tidsbaserte modellen er til røynda, det hadde vore svært nyttefullt å vite kor mykje avviket frå modellen er til røynda på gjennomsnitt.
 \section{Å finne den gjennomsnittlege avviket frå røynda.}
 MAE (Mean Absolute Error), eller "Middelavvik", er ein måte å måle feil mellom modellprediksjonar og faktiske verdiar i eit datasett.
 Det er definert som gjennomsnittet av absoluttverdiane av differansen mellom prediksjonane og dei faktiske verdiane.
@@ -357,10 +366,10 @@ Formelt sett kan dette uttrykkjast som $MAE = \frac{1}{n}\times \sum_{i=0}^{n}(|
 MAE kan brukast som ein måte å evaluere kor godt ein modell kan estimere faktiske verdiar i verkelegheita.
 I dette tilfellet blir MAE brukt til å finne ut kor presis vår tidlegare oppgitte tidsbaserte modell er i forhald til røynda og dens observerte data.
 Å vite kva MAE-et er kan hjelpe fiskeindustrien med å forutsjå kor mykje upresisheit det er i mengda torsk dei kan fange i eit gitt år, og planlegge deretter.
-Det bør imidlertid merkast at MAE er avhengig av at modellen ikkje har ein auking absolutt sett, noko som ein ikkje kan vite med den korte datamengda observert, den 27 år lange tidsramma skapar også ein minimal usikkerheit i å vite kor presis denne målinga på upresisheit haldar seg.
+Det bør imidlertid merkast at MAE er avhengig av at modellen ikkje har ein auking absolutt sett, noko som ein ikkje kan vite med den korte datamengda observert, den 27 år lange tidsramma skapar også ein liten usikkerheit i å vite kor presis denne målinga på upresisheit haldar seg.
 Derfor kan estimata som er basert på MAE, vere litt upresise og bør tolkast med forsiktighet.
 For å utrekne kva denne MAE verdien er kan ein dessverre ikkje ta i bruk det matematiske programmet \textit{GeoGebra} og det var dermed naud for å bruke ein anna metode for å rekne ut dette.
-Her blei det brukt Python for å gjere dette raskt, effektiv og presist.
+Her blei det brukt \textit{Python} for å gjere dette raskt, effektiv og presist.
 \begin{verbatim}
     import pandas as pd
     import math
@@ -387,7 +396,7 @@ Her blei det brukt Python for å gjere dette raskt, effektiv og presist.
     MAE = kalkulerMAE()
     print(f'MAE er {MAE} i verdi.')
 \end{verbatim}
-Gjennomsnittleg absolutt feil (MAE) har vist seg å vere ein relativt låg verdi av $\approx 156019$tonn, sjølv om ho framleis er noko høg. Dette indikerer at det er avgjerande å vere forsiktig med modellen sidan ho ikkje har ein merkbar låg MAE.
+Gjennomsnittleg absolutt feil (MAE) har vist seg å vere ein relativt låg verdi av $\approx 156019$tonn som gjengiven av \textit{Python}-koden, sjølv om ho framleis er noko høg. Dette indikerer at det er avgjerande å vere forsiktig med modellen sidan ho ikkje har ein merkbar låg MAE.
 Likevel kan MAE brukast til mange føremål i denne konteksten og forklarar korleis grafen ser ut og kor presis ein må vere i diskusjonen av modellen.
 Det bør imidlertid nemnast at MAE ikkje refererer til den maksimale skilnaden modellen kan ha frå verkelegheita, noko som teknisk sett er umogleg å forutsjå sidan datasettet kan utvikle seg annleis og nye maksimale skilnader kan oppstå.
 Likevel er MAE ein god indikator på at modellen er nøyaktig i mange tilfelle, og gjer henne til ei god og påliteleg modell, basert på datasettets avgrensa perspektiv på den potensielle totale utviklinga av torskebestanden i Barentshavet.
@@ -395,10 +404,17 @@ Dette er òg ei indikasjon på at for å oppnå ein perfekt modell, som nøyakti
 Likevel er dette framleis ei ganske god og presis modell som kan brukast til mange praktiske føremål, og denne låge MAE-en beviser det. Denne modellen kan brukast i mange situasjonar, særleg i fiskeriindustrien der ho kan inkorporerast for å nøyaktig modellere forventa maksimale fangstmengder.
 
 \section{Ein modell som tar omsyn til miljøfaktorar og andre fiskebestander.}
-Ein multivariabel funksjon er ein matematisk funksjon som inneheld fleire uavhengige variablar. I motsetning til ein enkeltvariabel funksjon, der det berre er ein variabel som påverkar funksjonsverdien, kan multivariable funksjonar ha fleire variablar som påverkar resultatet. Dette kan vere nyttig i situasjonar der det er fleire faktorar som kan påverke eit resultat, slik som i økonomiske eller naturvitskaplege studiar. I denne samanhengen blei det forsøkt å lage ein multivariabel funksjon for å analysere samanhengen mellom ulike faktorar og miljøfaktorar i høve til torskebestand.
-I eit forsøk på å lage ein multivariabel funksjon på forma $y=bx_1 +b_2x_2 +b_3x_3 +b_4x_4+b_5x_5$, vart Excel si multivariable regresjonsmodell nytta. Denne modellen viser samanhengen mellom dei ulike faktorane og miljøfaktorane, i tillegg til tid, men det er framleis viktig å merke seg at denne modellen er delvis upresis. Upresisheten kan forklarast gjennom manglande datamengde, og det er mange fleire faktorar som kan påverke torskebestanden. Desse faktorane er ikkje dei einaste som vil ha innverknad på torskebestanden, men dei er eit godt utgangspunkt for å analysere samanhengar. Det er forventa at det vil vere upresisheit med slike modellar som har manglande datamengde, noko som er påført av manglande offisiell data rundt dette. Dette er likevel ikkje ein negativ ting, men nærare eit krav innanfor slike studiar som brukar nye data.
-Som observert i plottinga av datasetta, var ei auking i loddebestanden ansvarleg for at ei auking i torskebestanden skjedde i kort tid etterpå, ikkje momentant og samstundes. Loddebestanden må først auke før torsken kan spise den auka loddebestanden. Denne logikken gjeld også dei andre faktorane, til dømes effeketen til temperaturen på torskebestanden vil skje i etterkant av temperaturendringa, kor raskt varierar frå faktor til faktor.
-Dette indikerer til at faktorane har ein tilknyting til torskebestanden sin vekstfart og ikkje direkte til bestanden. Gjennom ein regresjon som tek inn dei andre faktorane sin deriverte som påverkar bestanden, og torskebestanden sin deriverte kan ein deretter bruke integrasjon til å finne ein modell som tek inn fleire faktorar og gir tilbake torskebestanden sin totale vekt.
+Ein multivariabel funksjon er ein matematisk funksjon som inneheld fleire uavhengige variablar. I motsetning til ein enkeltvariabel funksjon, der det berre er ein variabel som påverkar funksjonsverdien, kan multivariable funksjonar ha fleire variablar som påverkar resultatet. Dette kan vere nyttig i situasjonar der det er fleire faktorar som kan påverke eit resultat, slik som i økonomiske eller naturvitskaplege studiar.
+I denne samanhengen blei det forsøkt å lage ein multivariabel funksjon for å analysere samanhengen mellom ulike faktorar og miljøfaktorar i høve til torskebestand.
+I eit forsøk på å lage ein multivariabel funksjon på forma $y=bx_1 +b_2x_2 +b_3x_3 +b_4x_4+b_5x_5+c$, vart Excel si multivariable regresjonsmodell nytta.
+Denne modellen viser samanhengen mellom dei ulike faktorane og miljøfaktorane, i tillegg til tid, men det er framleis viktig å merke seg at denne modellen er delvis upresis.
+Upresisheten kan forklarast gjennom manglande datamengde, og at det er mange fleire faktorar som kan påverke torskebestanden.
+Desse faktorane er ikkje dei einaste som vil ha innverknad på torskebestanden, men dei er eit godt utgangspunkt for å analysere samanhengar. Det er forventa at det vil vere upresisheit med slike modellar som har manglande datamengde, noko som er påført av manglande offisielle undersøkingar og data rundt dette. Dette er likevel ikkje ein negativ ting, men nærare eit krav innanfor slike studiar som brukar nye data.
+Som nemnt tidlegare, og observert i plottinga av datasetta, var ei auking i loddebestanden ansvarleg for at ei auking i torskebestanden skjedde i kort tid etterpå, ikkje momentant og samstundes.
+Loddebestanden må først auke før torsken kan spise den auka loddebestanden. Denne logikken gjeld også dei andre faktorane, til dømes effeketen til temperaturen på torskebestanden vil skje i etterkant av temperaturendringa, kor raskt varierar frå faktor til faktor.
+Dette indikerer til at faktorane har ein tilknyting til torskebestanden sin vekstfart og ikkje direkte til bestanden. 
+Gjennom ein regresjon som tek inn dei andre faktorane sin deriverte som påverkar bestanden, og torskebestanden sin deriverte kan ein deretter bruke integrasjon til å finne ein modell som tek inn fleire faktorar og gir tilbake torskebestanden sin totale vekt.
+Det er viktig å ta i bruk inntaksverdiane sine deriverte og ikkje deira ekte verdiar, fordi torskebestanden blir påverka av forandringa i dei andre faktorane, når loddebestanden minkar, aukar torskebestnaden.
 For å ha derivasjons-data som modellen skal tilpasse seg til var den tidlegare numeriske derivasjonsmodellen tatt i bruk.
 Ved å ta i bruk tidlegare oppgitt oppsett kan ein omformulere den til å passe med torskebestanden: \newline
 På forma $Torsk'_{2}(Lodde,Salt,Temp$\textit{År)}$=\beta_1$\textit{År}$ +\beta_2 Temp+ \beta_3 Salt + \beta_4 Plankton+\beta_5 Lodde$.
@@ -409,9 +425,9 @@ Då blir modellen til torskebestanden sin deriverte slik:
 	$T'_{2}(Lodde,Salt,Temp,$\textit{År)}$ \approx 0*$\textit{År}$ -0.473*Temp + 507818620*Salt + 9255000*Plankton - 7.444*10^{-3}*Lodde$
 \end{center}
 Det er viktig å vere kritisk til desse koeffisientene, og ikkje leggje dei som solid grunnlag for alle analyser.
-Når koeffsientene er negativ betyr dette at dei har ein positiv påverknad i torskebestanden, ein negativ koeffsient multiplisert med ein negativ derivant vil lede til ein positiv derivant hos torskebestanden.
+Når koeffsientene er negativ betyr dette at dei har ein positiv påverknad i torskebestanden, ein negativ koeffisient multiplisert med ein negativ derivant hos ein faktor vil lede til eit positiv-derivant-ledd hos torskebestanden.
 Når dette integrerast vil dette framleis halde presis, ein høg loddebestand vil ha ein låg torskebestand og omvendt.
-Likevel kan dei vere gode utgangspunkt. Ved å integrere denne modellen for torskebestanden sin derivasjon finner ein torskebestanden sin totale tonn vekt, formulert gjennom faktorar som påverkar bestanden.
+Ved å integrere denne modellen for torskebestanden sin derivasjon finner ein torskebestanden sin totale tonn vekt, formulert gjennom faktorar som påverkar bestanden.
 
 \begin{center}
 	$T'_{2}(Lodde,Salt,Temp,$\textit{År)}$ \approx 0*$\textit{År}$-0.473*Temp + 507818620*Salt + 9255000*Plankton - 7.444*10^{-3}*Lodde $\\
@@ -430,18 +446,24 @@ Likevel kan dei vere gode utgangspunkt. Ved å integrere denne modellen for tors
 	\caption{Multivariabel regresjon resultater i frå Excel.}
 	\label{Multi}
 \end{figure}
-Den multivariable regresjonsmodellen indikerer ein stor samanheng mellom loddebestanden og torskebestanden. Ein høg loddebestand fører til auka torskebestand, og dette blir indikert av den negative koeffisienten, og kan tydeleg bli observert i dei tidlegare plottet grafane. Sjølv om denne koeffisienten er relativt låg i samanlikning med nokre andre koeffisientar som plankton, er loddebestanden likevel betydningsfull på grunn av dei høge verdiene den har.
-Tid er ein faktor som ikkje viser nokon effekt på torskebestanden som heilskap. Dette gir sjølvsagt meining, sidan bestanden ikkje har nokon klar forståing av kva tid er og ei torsk klarer ikkje å tilpasse livsstilen sin etter tal år etter 1987. Likevel er det viktig å ta omsyn til tid då det kan indikere ein påverknad av menneskeleg aktivitet. Ein positiv eller negativ koeffisient til tiden ville innebere at det var ein tidsavhengig variabel, men dette er ikkje avklart til å være presist her. Det er difor viktig å sjekke slike moglegheiter.
-Salinitet har ein stor påverknad på torskebestanden, sidan torsk er ein saltvassfisk som krev salt for å kunne trivast.
+Den multivariable regresjonsmodellen indikerer ein stor samanheng mellom loddebestanden og torskebestanden. Ein høg loddebestand fører til auka torskebestand, og dette blir indikert av den negative koeffisienten, og kan tydeleg bli observert i dei tidlegare plottet grafane.
+Sjølv om denne koeffisienten er relativt låg i samanlikning med nokre andre koeffisientar som plankton, er loddebestanden likevel ekstremt betydningsfull på grunn av dei høge verdiene den har i inntaksverdi. Inntaksverdiane til lodde er svært høge noko som skaper eit ledd i funksjonen som er svært påverkande til resultatet av funksjonen.
+Tid er ein faktor som ikkje viser nokon effekt på torskebestanden som heilskap. Dette gir sjølvsagt meining, sidan bestanden ikkje har nokon klar forståing av kva tid er og ei torsk klarer ikkje å tilpasse livsstilen sin etter mengda år etter 1987.
+Likevel er det viktig å ta omsyn til tid då det kan indikere ein påverknad av menneskeleg aktivitet. Ein positiv eller negativ koeffisient til tiden ville innebere at det var ein tidsavhengig variabel, som menneskeleg aktivitet som har spesifikke tidsrammer, men dette er ikkje avklart til å være presist her.
+Det er difor framleis svært viktig å sjekke slike moglegheiter i starten av denne multivariable analysen.
+Salinitet har ein stor påverknad på torskebestanden, sidan torsk er ein saltvatnfisk som krev salt for å kunne trivast.
 Ein altfor høg salinitet derimot vil ha ein negativ effekt på torskebestanden, for mykje salt vil settje det indre miljøet til torsken i ubalanse, noko som vil lede til større sjanse for daud.
-Dermed er også koeffisienten til plankton positiv. Temperatur har ein låg verknad på bestanden, der ein god varmare temperatur har ein positiv effekt på torskebestanden, men i liten grad. Den har dermed også ein negativ koeffisient, noko som tyder på at torsken kan like ein god temperatur. Likevel er dette ikkje heilt presist sidan ein altfor stor temperatur, som $100C^o$, vil vere skadeleg for fisken i verkelegheita.
+Dermed er også koeffisienten til salinitet positiv. Temperatur har ein låg verknad på bestanden, der ein god varmare temperatur har ein positiv effekt på torskebestanden, men i liten grad. Den har dermed også ein negativ koeffisient, noko som tyder på at torsken kan like ein god temperatur.
+Likevel er dette ikkje heilt presist sidan ein altfor stor temperatur, som $100C^o$, vil vere skadeleg for fisken i verkelegheita, noko som var nemnt i teori-biten, for mykje varme kan lede til oksygenmangel.
 Plankton har ein negativ effekt på bestanden. At koeffisienten til plankton er positiv er ein litt uventa indikajson på at torsk har mange ulike rovdyr som spis den, ei auking i plankton indikerer ei auking i rovdyr noko som i resultat vil lede til ei minking i torskebestnaden.
+Framleis er det viktig å anerkjenne at plankton er også viktig for torskebestanden i røynda, ein plankton mengde av $0$ ville ha skapt ingen næringsinntak til næringskjeden, noko som tyder til at den ville ha vore ein faktor som minkar bestanden totaltsett.  
 Den multivariable regresjonsmodellen kan gje viktige innsikter i samanhengen mellom ulike faktorar og torskebestanden.
 Likevel er det viktig å vere varsam med koeffisientane og modellen som heilheit, særleg når datasettet er relativt lite og kompleksiteten høg.
 Koeffisientane kan vere feilaktige på grunn av manglande data eller unøyaktigheiter i modelleringa.
 På trass av dette kan modellen fungere som eit godt utgangspunkt for å undersøkje samanhengane mellom ulike faktorar og torskebestanden.
 Det er likevel viktig å påpeike at denne modellen ikkje fangar opp alle faktorane som kan påverke torskebestanden, det er ein svært høg kompleksitet rundt dyrebestander.
 Framtidige, meir sofistikerte modellar vil kunne ta i bruk fleire datapunkt og faktorar for å gi eit meir presist bilete av denne komplekse samanhengen.
+Denne modellen kan framleis, likevel den kan bere med seg upresisheitar, vere ekstremt nyttefull for fiskeriindustrien når det kjem til fangst av denne fiskebestanden. 
 \chapter{Feilkjelder.}
 Ved analysen av torskebestanden i Barentshavet er det viktig å vera merksam på ulike mogelege feilkjelder som kan påverke resultatet. Ein av dei mest opplagte feilkjeldene kan vere mangelen på data, spesielt i denne kort tidsrammen av berre 27 år. Dette kan til dømes skuldast teknologiske avgrensingar i innsamling av data eller utilstrekkeleg ressursallokering for å samle inn data på ein jamnleg basis. Mangelen på data kan føre til at nokre av parameterane i modellen ikkje er like nøyaktige som dei kunne ha vore om meir data var tilgjengeleg.
 Ein annan potensiell feilkjelde kan vere feil i dei matematiske utrekningane og modellane som blir brukt. Sjølv om slike feil er sjeldne, er det framleis ein mogelegheit, særleg om modellane er kompliserte og datamaskinane som blir brukt for utrekningane, ikkje er optimalt programmert eller konfigurert. Ein måte å minimere slike feil på, er å bruke fleire uavhengige metodar for å modellere dataa og deretter samanlikne resultatet frå ulike modellar.
@@ -449,9 +471,21 @@ Ein annan mogeleg feilkjelde er at modellen ikkje tek omsyn til utviklinga av to
 Andre potensielle feilkjelder kan inkludere menneskelege faktorar som påverkar datainnsamling og analyse. Dette kan omfatte bias i datainnsamling eller utveljing av data som påverkar resultatet. Det kan også vere feil i berekningar eller tolkingar av resultatet. Det er viktig å vera kritisk til metodane som blir brukt i analysane, og å validere resultatet med fleire uavhengige kjelder.
 Til slutt er det generelt viktig å vera kritisk til dei fleste studiane ein les, og å vurdere resultatet basert på kvalitet og relevans av dataa, validitet av analysane og rimelighet av konklusjonane. Forsking er ein kontinuerleg prosess, og det er alltid mogelegheit for forbetring og justering av modellane og analysane i lys av nye data og kunnskap.
 \chapter{Konklusjon.}
-Torskebestanden i Barentshavet er ein viktig og verdifull ressurs for fiskeriindustrien i Noreg, spesielt med tanke på den økonomiske betydninga etter oljealderen. Ein matematisk forståing av korleis bestanden utviklar seg og er samanhengande med andre faktorar, når den er på topp og når den er på sitt lågaste, er difor viktig for å optimalisere fiskeriaktivitetar og bevare bestanden på lang sikt. Ein tidsbasert sinusforma modell blei utvikla for å analysere og modellere bestanden, med moglegheit for å utforske endringar i vekstfart ved hjelp av derivasjonsteknikkar. Ekstremalpunkt og vendepunkt i modellen blei rekna ut og kan gi verdifull informasjon til fiskeriindustrien om når ein bør fiske eller ikkje, og når ein bør overvake bestanden meir eller mindre.
-Ein integrasjonsbasert forsøk blei også utført for å rekne ut storleiken på bestanden i gjennomsnitt per år, som viste seg å vere omtrent rundt $530000 tonn$ eller $4800000 torsk$, basert på ein vekt på gjennomsnittlege $11kg$ per torsk. Momentane modellar blei også utvikla ved å dele den tidsbaserte modellen på verdien $11kg$. Den tidsbaserte modellen viste seg å vere svært presis med eit lågt middelavvik på omlag $156000kg$, noko som indikerer at den kan vere nyttig i praktisk bruk i fiskeriindustrien. Imidlertid kan ein også forvente at fangsten kan variere frå det forventa.
-Ein modell som tek omsyn til fleire variablar kan vere enda meir presis og ta omsyn til unormale hendingar og andre uventa faktorar som den enkle tidsbaserte modellen ikkje kan. Excel si regresjonsmodell blei brukt til å utvikle ein slik modell, med numerisk deriverte verdiar av variablane og torskebestanden sine numeriske deriverte verdiar. Den resulterande modellen viste seg å vere presis og kunne modellere fiskebestanden over tid med omsyn til nokre av dei viktigaste faktorane som påverkar bestanden. Denne modellen kan vere ein viktig ressurs for fiskeriindustrien når det gjeld optimalisering av fiskeriaktivitetar og bevaring av bestanden på lang sikt.
+Torskebestanden i Barentshavet er ein viktig og verdifull ressurs for fiskeriindustrien i Noreg, spesielt med tanke på den økonomiske betydninga etter oljealderen. Ein matematisk forståing av korleis bestanden utviklar seg og er samanhengande med andre faktorar, når den er på topp og når den er på sitt lågaste, er difor viktig for å optimalisere fiskeriaktivitetar og bevare bestanden på lang sikt.
+Ein tidsbasert sinusforma modell blei utvikla for å analysere og modellere bestanden, med ein undersøking av endringar i bestanden og dens vekstfart ved hjelp av derivasjonsteknikkar.
+Formelen for denne tidsbaserte sinusforma modellen var som følgande: $T(t) = 526052+190105\times \sin(0.7295t+1.96)tonn$.
+Ekstremalpunkt og vendepunkt i modellen blei rekna ut og kan henholdsvis gi verdifull informasjon til fiskeriindustrien om når ein bør fiske eller ikkje, og når ein bør overvake bestanden meir eller mindre.
+Ekstremalpunkta kan givast gjennom formelen: $t=\frac{\pi n - \frac{\pi}{2}-1.96}{0.7295}$, der $n$ er eit reellt tall og $t$ er tall år etter 1987. 
+Kvar $2n$ vil vere lik i verdi etterfølgjande av at fiskebestanden går i sesongar.
+Kvar $t_{1+2n}$ er eit topppunkt med verdi på $716157tonn$, kvar $t_{2n}$ er eit botnpunkt og har ein verdi på $335947tonn$.
+Vendepunkta kan givast gjennom formelen: $t=\frac{\pi n -1.96}{0.7295}$, der $n$ er eit reellt tall og $t$ er tall år etter 1987.
+Ein integrasjonsbasert forsøk blei også utført for å rekne ut storleiken på bestanden i gjennomsnitt per år, som viste seg å vere omtrent rundt $530000tonn$ eller $4800000 torsk$, basert på ein vekt på gjennomsnittlege $11kg$ per torsk.
+Momentane modellar blei også utvikla ved å dele den tidsbaserte modellen på verdien $11kg$, ein slik modell var til dømes: $T_{Mengde}(t)=47822909+17282272\times \sin(0.7295t+1.96)$, der $t$ er tall år etter 1987.
+Den tidsbaserte sinusforma modellen viste seg å vere svært presis med eit relativt lågt middelavvik på omlag $156000kg$, noko som indikerer at den kan vere nyttig i praktisk bruk i fiskeriindustrien. Imidlertid må ein merke seg på at ein må også forvente at fangsten kan variere frå det forventa.
+Ein modell som tek omsyn til fleire variablar kan vere enda meir presis og ta omsyn til unormale hendingar og andre uventa faktorar som den enkle tidsbaserte modellen ikkje kan. Excel si regresjonsmodell blei brukt til å utvikle ein slik modell, med numerisk deriverte verdiar av variablane og torskebestanden sine numeriske deriverte verdiar, og deretter til slutt integrere funksjonen.
+Den resulterande modellen, som var $T_{2}(Temp,Salt,Plankton,Lodde) \approx -0.237*Temp^2 + 253909310*Salt^2 + 4627500*Plankton^2 -3.722*10^{-3}*Lodde^2 + 531481$, viste seg å vere nokså presis og kunne modellere fiskebestanden over tid med omsyn til nokre av dei viktigaste faktorane som påverkar bestanden.
+Denne modellen kan vere ein viktig ressurs for fiskeriindustrien når det gjeld optimalisering av fiskeriaktivitetar og bevaring av bestanden på lang sikt.
+
 \chapter{Forbetringar \& Ynsker \& Refleksjon}
 Det finst fleire ulike metodar som kunne ha vorte brukt for å betre denne studien av torskebestanden. Ein betre planlegging av rapporten og ei grundigare undersøking av datasettet kunne ha gitt ei meir utfyllande rapport og ei meir nyansert forståing av datasettet. Ved å gjennomføre ei meir inngåande undersøking av naturen og livsstilen til torsken i Barentshavet, kunne ein ha oppnådd ein mykje større innsikt i mogelege faktorar som påverkar bestanden, og dermed også datasettet. Dette kunne ha gitt betre modellar og ei djupare forståing av torskebestanden sin utvikling.
 Ved å nytte ein meir heilskapleg tilnærming og inkludere fleire ulike variablar, kunne det ha blitt identifisert potensielle truslar mot bestanden og føreslått tiltak for å oppretthalde ei berekraftig torskebestand i Barentshavet.
@@ -463,10 +497,8 @@ Wikipedia, (07.Mars.2023) \textit{Atlantic Cod}. Henta 15.03.2023 i frå: \\
 \url{https://en.wikipedia.org/wiki/Atlantic_cod} \\ \\
 Mass.gov, \textit{Learn more about atlantic cod}. Henta 16.03.2023 i frå: \\
 \url{https://www.mass.gov/service-details/learn-about-atlantic-cod#} \\ \\
-
 Havforskningsinstituttet, \textit{SJOMIL}. Henta 14.03.2023 i frå: \\
 \url{https://www.imr.no/sjomil/} \\ \\
-
 Wikipedia, \textit{Ecosystems}. Henta 14.03.2023 i frå: \\
 \url{https://en.wikipedia.org/wiki/Ecosystem} \\ \\
 \end{document}
