@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.6)  24 MAR 2023 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.6)  24 MAR 2023 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,78 +457,78 @@ File: Bileter/NumeriskDerivasjon.png Graphic file (type png)
 Package pdftex.def Info: Bileter/NumeriskDerivasjon.png  used on input line 293.
 (pdftex.def)             Requested size: 327.3254pt x 188.20457pt.
  [14 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/NumeriskDerivasjon.png>] [15]
-Overfull \hbox (16.46515pt too wide) in paragraph at lines 358--364
+Overfull \hbox (16.46515pt too wide) in paragraph at lines 359--365
 \OT1/cmr/m/n/10 Denne ver-di-en er s^^Zr-leg n^^Zr den nu-me-ris-ke intre-gra-sjo-nen med eit av-vik p^^Wa ber-re $14350659\OML/cmm/m/it/10 tonn \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 14350000\OML/cmm/m/it/10 tonn \OT1/cmr/m/n/10 =
  []
 
 [16]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 401.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 402.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [17]
 <Bileter/MultiVariabel.png, id=254, 1106.1325pt x 518.93875pt>
 File: Bileter/MultiVariabel.png Graphic file (type png)
 <use Bileter/MultiVariabel.png>
-Package pdftex.def Info: Bileter/MultiVariabel.png  used on input line 448.
-(pdftex.def)             Requested size: 442.44516pt x 207.57182pt.
- [18] [19 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/MultiVariabel.png>] [20]
+Package pdftex.def Info: Bileter/MultiVariabel.png  used on input line 449.
+(pdftex.def)             Requested size: 431.38994pt x 202.3853pt.
+ [18] [19 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/MultiVariabel.png>]
 Kapittel 4.
-[21
+[20
 
 ]
 Kapittel 5.
-[22
+[21
 
 ]
 Kapittel 6.
-[23
+[22
 
 ]
 Kapittel 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--507
+Underfull \hbox (badness 10000) in paragraph at lines 501--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--507
+Underfull \hbox (badness 10000) in paragraph at lines 501--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--507
+Underfull \hbox (badness 10000) in paragraph at lines 501--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--507
+Underfull \hbox (badness 10000) in paragraph at lines 501--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--507
+Underfull \hbox (badness 10000) in paragraph at lines 501--509
 
  []
 
-[24
+[23
 
 ] (/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 5FD730B52DE8EC890B7FD05C08382777;5181.
  ) 
 Here is how much of TeX's memory you used:
- 9901 strings out of 478994
- 146081 string characters out of 5858184
+ 9900 strings out of 478994
+ 146074 string characters out of 5858184
  483089 words of memory out of 5000000
  27189 multiletter control sequences out of 15000+600000
  408123 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,74p,1467b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.pdf" (25 pages, 2458726 bytes).
+Output written on "/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.pdf" (24 pages, 2458924 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

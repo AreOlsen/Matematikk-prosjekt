@@ -43,7 +43,7 @@ Vidare ynskjer eg å forsøke å anslå kva torskebestanden kan omtrentleg vere,
 Målet med prosjektet er å utvikle matematiske modellar og kunnskap rundt denne fiskebestanden slik at den kan bli brukt for ein berekraftig forvalting av fiskebestanden i post-oljetida i Noreg.
 \section{Hypoteser.}
 Hypotesen som blir presentert, hevder at torskebestanden vil bli påverka av ulike faktorar, særleg miljømessige faktorar og endringar i miljøet, samt av andre fiskebestandar som både fungerer som rovdyr og bytte. Det er hevda at endringar i desse bestandane vil ha ein direkte innverknad på torskebestanden, og at ein auke eller reduksjon i desse bestandane vil ha ei tilsvarende effekt på torskebestanden.
-Framover i tid vil torskebestanden truleg halde seg meir eller mindre konstant, sidan andre fiskebestandar kan leve i ein form for samspel der dei held seg i sesongar, og miljøfaktorar kan ha ei minimal og ubetydeleg effekt. Dette betyr at torskebestanden vil trulegvis halde seg på eit relativt stabilt nivå i framtida.
+Framover i tid vil torskebestanden truleg halde seg meir eller mindre konstant, sidan andre fiskebestandar kan leve i ein form for samspel der dei held seg i sesongar, og miljøfaktorar kan moglegvis ha ei minimal og ubetydeleg effekt. Dette betyr at torskebestanden vil trulegvis halde seg på eit relativt stabilt nivå i framtida.
 Det er likevel verdt å merke seg at eventuelle anomalier eller avvik frå denne trenden kan moglegvis bli forklart gjennom fiskesesongar og menneskeleg innverknad. Dette kan vere viktige faktorar som kan påverke torskebestanden på kort og lang sikt.
 I lys av desse faktorane kan det hevdast at torskebestanden vil halde seg relativt stabil, men at den likevel kan vere påverka av ulike faktorar som miljø og menneskeleg aktivitet.
 \section{Relevanse.}
@@ -346,7 +346,8 @@ Ein kan då utføre integrasjonen slik:
 	                  & = 526052t+190105\times\sin(0.7295t+1.96)+c_{1}                            \\
 	                  & = 526052t-190105\times\frac{\cos(0.7295t+1.96)}{0.7295}+c_{1}             \\
 	\int T(t)\delta t & =526052t-190105\times\frac{\cos(0.7295t+1.96)}{0.7295}+c_{1}              \\
-	                  & \textit{(Frå eit praktisk perspektiv vil $C_1$ vere 0 i verdi i røynda.)} \\
+	                  & \textit{(Frå eit praktisk perspektiv vil $C_1$ vere 0 i verdi i røynda. )} \\
+					  & \textit{(Vi skal berre summere, ingen ekstra konstant $C_1$.)} \\
 	TotalT(t)         & =526052t-190105\times\frac{\cos(0.7295t+1.96)}{0.7295}
 \end{align*}
 For å finne kor mykje torsk som har blitt målt, i følge den regresjonsbaserte modell intregasjonen, må ein definere området vi skal finne arealet under grafen til, her er det frå 0 til 27 ettersom det er 27 år med data:
@@ -444,7 +445,7 @@ Ved å integrere denne modellen for torskebestanden sin derivasjon finner ein to
 \begin{figure}[H]
 	\centering
 	\fbox{
-		\includegraphics[scale=0.4]{Bileter/MultiVariabel.png}
+		\includegraphics[scale=0.39]{Bileter/MultiVariabel.png}
 	}
 	\caption{Multivariabel regresjon resultater i frå Excel.}
 	\label{Multi}
@@ -482,13 +483,14 @@ Ekstremalpunkta kan givast gjennom formelen: $t=\frac{\pi n - \frac{\pi}{2}-1.96
 Kvar $2n$ vil vere lik i verdi etterfølgjande av at fiskebestanden går i sesongar.
 Kvar $t_{1+2n}$ er eit topppunkt med verdi på $716157tonn$, kvar $t_{2n}$ er eit botnpunkt og har ein verdi på $335947tonn$.
 Vendepunkta kan givast gjennom formelen: $t=\frac{\pi n -1.96}{0.7295}$, der $n$ er eit reellt tall og $t$ er tall år etter 1987.
-Ein integrasjonsbasert forsøk blei også utført for å rekne ut storleiken på bestanden i gjennomsnitt per år, som viste seg å vere omtrent rundt $530000tonn$ eller $4800000 torsk$, basert på ein vekt på gjennomsnittlege $11kg$ per torsk.
+Ein integrasjonsbasert utrekning blei også utført for å rekne ut storleiken på bestanden i gjennomsnitt per år, som viste seg å vere omtrent rundt $530000tonn$ eller $4800000 torsk$, basert på ein vekt på gjennomsnittlege $11kg$ per torsk.
 Momentane modellar blei også utvikla ved å dele den tidsbaserte modellen på verdien $11kg$, ein slik modell var til dømes: $T_{Mengde}(t)=47822909+17282272\times \sin(0.7295t+1.96)$, der $t$ er tall år etter 1987.
-Den tidsbaserte sinusforma modellen viste seg å vere svært presis med eit relativt lågt middelavvik på omlag $156000kg$, noko som indikerer at den kan vere nyttig i praktisk bruk i fiskeriindustrien. Imidlertid må ein merke seg på at ein må også forvente at fangsten kan variere frå det forventa.
-Ein modell som tek omsyn til fleire variablar kan vere enda meir presis og ta omsyn til unormale hendingar og andre uventa faktorar som den enkle tidsbaserte modellen ikkje kan. Excel si regresjonsmodell blei brukt til å utvikle ein slik modell, med numerisk deriverte verdiar av variablane og torskebestanden sine numeriske deriverte verdiar, og deretter til slutt integrere funksjonen.
+Den tidsbaserte sinusforma modellen viste seg å vere svært presis med eit relativt lågt middelavvik (MAE) på omlag $156000kg$, noko som indikerer at den kan vere nyttig i praktisk bruk i fiskeriindustrien. Imidlertid må ein merke seg på at ein må også forvente at fangsten kan variere frå det forventa.
+Ein modell som tek omsyn til fleire variablar kan vere enda meir presis og ta omsyn til unormale hendingar og andre uventa faktorar som den enkle tidsbaserte modellen ikkje kan. Excel si regresjonsfunksjon blei brukt til å utvikle ein slik modell, med numerisk deriverte verdiar av variablane og torskebestanden sine numeriske deriverte verdiar, og deretter til slutt integrere funksjonen.
 Den resulterande modellen, som var $T_{2}(Temp,Salt,Plankton,Lodde) \approx -0.237*Temp^2 + 253909310*Salt^2 + 4627500*Plankton^2 -3.722*10^{-3}*Lodde^2 + 531481$, viste seg å vere nokså presis og kunne modellere fiskebestanden over tid med omsyn til nokre av dei viktigaste faktorane som påverkar bestanden.
 Denne modellen kan vere ein viktig ressurs for fiskeriindustrien når det gjeld optimalisering av fiskeriaktivitetar og bevaring av bestanden på lang sikt.
-
+Alt i alt, var mange ulike aspekt av bestanden utforska som kan vere praktisk brukbar, samlande skaper dette ein stor oversikt og forståelse over korleis denne fiskebestanden utviklar og oppførar seg. 
+Fiskebestanden går i sesongar, som vist av den deriverte og den dobbeltderiverte, er påverka av ulike faktorar i miljøet, som lodde og temperatur, og modellane som drøftar den er samlasett ganske presise, som vist gjennom middelavviket og integrasjonen. 
 \chapter{Forbetringar \& Ynsker \& Refleksjon}
 Det finst fleire ulike metodar som kunne ha vorte brukt for å betre denne studien av torskebestanden. Ein betre planlegging av rapporten og ei grundigare undersøking av datasettet kunne ha gitt ei meir utfyllande rapport og ei meir nyansert forståing av datasettet. Ved å gjennomføre ei meir inngåande undersøking av naturen og livsstilen til torsken i Barentshavet, kunne ein ha oppnådd ein mykje større innsikt i mogelege faktorar som påverkar bestanden, og dermed også datasettet. Dette kunne ha gitt betre modellar og ei djupare forståing av torskebestanden sin utvikling.
 Ved å nytte ein meir heilskapleg tilnærming og inkludere fleire ulike variablar, kunne det ha blitt identifisert potensielle truslar mot bestanden og føreslått tiltak for å oppretthalde ei berekraftig torskebestand i Barentshavet.
@@ -502,6 +504,6 @@ Mass.gov, \textit{Learn more about atlantic cod}. Henta 16.03.2023 i frå: \\
 \url{https://www.mass.gov/service-details/learn-about-atlantic-cod#} \\ \\
 Havforskningsinstituttet, \textit{SJOMIL}. Henta 14.03.2023 i frå: \\
 \url{https://www.imr.no/sjomil/} \\ \\
-Wikipedia, \textit{Ecosystems}. Henta 14.03.2023 i frå: \\
+Wikipedia, (12.Feb.2023) \textit{Ecosystems}. Henta 14.03.2023 i frå: \\
 \url{https://en.wikipedia.org/wiki/Ecosystem} \\ \\
 \end{document}
