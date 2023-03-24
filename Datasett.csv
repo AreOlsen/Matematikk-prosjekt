@@ -1,0 +1,39 @@
+#Data from the SJØMIL database at the Institute of Marine Research. - 13.03.2023 
+#When using the data the Institute of Marine Research must be credited.
+#Redistribution of the data can only be done in agreement with the Institute of Marine Research.
+
+#Series_1: Fish ICES assessments - BS Capelin - 2016 assessment - Total Stock Biomass   '000 tonnes
+#Series_2: Fish observations - NEA Cod - Total biomass   '000 tonnes
+#Series_3: Zooplankton observations - Fixed areas/sections - Barents Sea - Dryweight (bottom-0 m) - Total   g/m2
+#Series_4: Climate observations - Fixed sections/straits - Vardø-North - Salinity - Annual mean   dimensionless
+#Series_5: Climate observations - Fixed sections/straits - Vardø-North - Temperature - Annual mean   Deg C
+
+#yyyy-mm-dd	Series_1	Series_2	Series_3	Series_4	Series_5		
+01.01.1987,     100.08,     639.00,		3.17,	    35.002,		3.08,	
+01.01.1988,	    427.3018,	398.0,		5.67,		34.985,		3.34,	
+01.01.1989,	    868.875	,	285.0,		4.67,		34.949,		3.79,	
+01.01.1990,	    5837.78	,	271.0,		4.25,		35.006,		4.19,	
+01.01.1991,	    7281.83	,	246.0,		5.13,		35.036,		4.06,	
+01.01.1992,	    5155.023,	352.0,		7.52,		35.011,		4.02,	
+01.01.1993,	    796.774	,	383.0,		12.83,		35.026,		3.87,	
+01.01.1994,	    199.1341,	565.0,		10.34,		34.996,		3.76,	
+01.01.1995,	    193.5765,	761.0,		7.51,		34.969,		3.93,	
+01.01.1996,	    502.1133,	943.0,		9.06,		34.945,		3.05,	
+01.01.1997,	    910.0153,	701.0,		8.14,		35.015,		3.13,	
+01.01.1998,	    2054.7302,	495.0,		6.79,		34.969,		3.21,	
+01.01.1999,	    2774.1184,	429.0,		7.85,		34.976,		4.16,	
+01.01.2000,	    4273.8209,	318.0,		5.85,		35.024,		3.92,	
+01.01.2001,	    3629.1002,	356.0,		6.88,		35.001,		4.01,	
+01.01.2002,	    2208.7274,	428.0,		6.5	,		35.027,		3.77,	
+01.01.2003,	    533.6095,	441.0,		7.74,	    35.017,		3.69,	
+01.01.2004,	    627.4865,	546.0,		7.6	,		35.041,		4.19,	
+01.01.2005,	    324.0536,	413.0,		8.63,	    35.069,		4.48,	
+01.01.2006,	    787.1931,	355.0,		7.13,		35.07,		4.75,	
+01.01.2007,	    1881.4982,	335.0,		6.48,		35.057,		4.78,	
+01.01.2008,	    4426.4601,	397.0,		5.87,		35.058,		4.49,	
+01.01.2009,	    3755.6998,	684.0,		6.52,		35.09,		4.54,	
+01.01.2010,	    3498.0045,	738.0,		5.88,		35.047,		4.11,	
+01.01.2011,	    3707.6619,	814.0,		7.13,		35.087,		3.76,	
+01.01.2012,	    3585.7194,	874.0,		5.16,		35.081,		4.88,	
+01.01.2013,	    3955.7014,	910.0,      6.87,		35.077,		4.99,
+01.01.2014,     1949.11,	912.0,      0.87,       3.51,       4.79,

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.6)  24 MAR 2023 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.6)  24 MAR 2023 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,24 +247,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -325,7 +325,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 12.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -335,9 +335,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
  (/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.out) (/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.out)
 \@outlinefile=\write3
 \openout3 = `rapport.out'.
@@ -345,7 +345,7 @@ LaTeX Info: Redefining \nameref on input line 11.
 <Bileter/Torsk.jpg, id=104, 147.4308pt x 139.722pt>
 File: Bileter/Torsk.jpg Graphic file (type jpg)
 <use Bileter/Torsk.jpg>
-Package pdftex.def Info: Bileter/Torsk.jpg  used on input line 24.
+Package pdftex.def Info: Bileter/Torsk.jpg  used on input line 25.
 (pdftex.def)             Requested size: 256.0748pt x 242.72415pt.
  [1
 
@@ -356,13 +356,13 @@ Package pdftex.def Info: Bileter/Torsk.jpg  used on input line 24.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \chapter
+l.34 \chapter
              {Introduksjon.} [1
 
 ]
 Kapittel 1.
 
-Overfull \hbox (0.12476pt too wide) in paragraph at lines 42--46
+Overfull \hbox (0.12476pt too wide) in paragraph at lines 45--49
 \OT1/cmr/m/n/10 Hypotesen som blir pre-sen-tert, hev-der at torske-be-stan-den vil bli p^^Waverka av uli-ke fak-to-rar, s^^Zr-leg milj^^\messige
  []
 
@@ -377,10 +377,10 @@ Kapittel 3.
 <Bileter/Datasettet.png, id=160, 872.50969pt x 616.55344pt>
 File: Bileter/Datasettet.png Graphic file (type png)
 <use Bileter/Datasettet.png>
-Package pdftex.def Info: Bileter/Datasettet.png  used on input line 81.
+Package pdftex.def Info: Bileter/Datasettet.png  used on input line 84.
 (pdftex.def)             Requested size: 436.25378pt x 308.27596pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 75--87
 
  []
 
@@ -390,63 +390,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--84
 <Bileter/Torsk.png, id=173, 920.68968pt x 567.62062pt>
 File: Bileter/Torsk.png Graphic file (type png)
 <use Bileter/Torsk.png>
-Package pdftex.def Info: Bileter/Torsk.png  used on input line 94.
+Package pdftex.def Info: Bileter/Torsk.png  used on input line 97.
 (pdftex.def)             Requested size: 156.49014pt x 96.4769pt.
 <Bileter/Lodde.png, id=174, 703.87968pt x 569.12625pt>
 File: Bileter/Lodde.png Graphic file (type png)
 <use Bileter/Lodde.png>
-Package pdftex.def Info: Bileter/Lodde.png  used on input line 94.
+Package pdftex.def Info: Bileter/Lodde.png  used on input line 97.
 (pdftex.def)             Requested size: 156.49014pt x 126.52815pt.
 <Bileter/loddeogtorsk.png, id=175, 889.07156pt x 607.51968pt>
 File: Bileter/loddeogtorsk.png Graphic file (type png)
 <use Bileter/loddeogtorsk.png>
-Package pdftex.def Info: Bileter/loddeogtorsk.png  used on input line 94.
+Package pdftex.def Info: Bileter/loddeogtorsk.png  used on input line 97.
 (pdftex.def)             Requested size: 156.49014pt x 106.92935pt.
 <Bileter/Salt.png, id=176, 1082.0425pt x 819.06pt>
 File: Bileter/Salt.png Graphic file (type png)
 <use Bileter/Salt.png>
-Package pdftex.def Info: Bileter/Salt.png  used on input line 96.
+Package pdftex.def Info: Bileter/Salt.png  used on input line 99.
 (pdftex.def)             Requested size: 156.49014pt x 118.45445pt.
 <Bileter/Temp.png, id=177, 1312.905pt x 851.18pt>
 File: Bileter/Temp.png Graphic file (type png)
 <use Bileter/Temp.png>
-Package pdftex.def Info: Bileter/Temp.png  used on input line 96.
+Package pdftex.def Info: Bileter/Temp.png  used on input line 99.
 (pdftex.def)             Requested size: 156.49014pt x 101.44882pt.
 <Bileter/PLANKTON..png, id=178, 950.04938pt x 567.62062pt>
 File: Bileter/PLANKTON..png Graphic file (type png)
 <use Bileter/PLANKTON..png>
-Package pdftex.def Info: Bileter/PLANKTON..png  used on input line 96.
+Package pdftex.def Info: Bileter/PLANKTON..png  used on input line 99.
 (pdftex.def)             Requested size: 156.49014pt x 93.48878pt.
 
-Overfull \hbox (35.17548pt too wide) in paragraph at lines 92--99
+Overfull \hbox (35.17548pt too wide) in paragraph at lines 95--102
  [][] 
  []
 
 <Bileter/T.png, id=179, 814.54312pt x 569.12625pt>
 File: Bileter/T.png Graphic file (type png)
 <use Bileter/T.png>
-Package pdftex.def Info: Bileter/T.png  used on input line 117.
+Package pdftex.def Info: Bileter/T.png  used on input line 120.
 (pdftex.def)             Requested size: 244.36482pt x 170.73918pt.
 [8 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/Torsk.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/Lodde.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/loddeogtorsk.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/Salt.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/Temp.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/PLANKTON..png>]
 <Bileter/T1.png, id=193, 815.29594pt x 534.49687pt>
 File: Bileter/T1.png Graphic file (type png)
 <use Bileter/T1.png>
-Package pdftex.def Info: Bileter/T1.png  used on input line 133.
+Package pdftex.def Info: Bileter/T1.png  used on input line 136.
 (pdftex.def)             Requested size: 285.35785pt x 187.0767pt.
  [9 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/T.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/T1.png>]
 <Bileter/TDER.png, id=203, 815.29594pt x 611.28375pt>
 File: Bileter/TDER.png Graphic file (type png)
 <use Bileter/TDER.png>
-Package pdftex.def Info: Bileter/TDER.png  used on input line 173.
+Package pdftex.def Info: Bileter/TDER.png  used on input line 176.
 (pdftex.def)             Requested size: 285.35785pt x 213.95251pt.
  [10]
 <Bileter/T1DER.png, id=209, 813.0375pt x 572.1375pt>
 File: Bileter/T1DER.png Graphic file (type png)
 <use Bileter/T1DER.png>
-Package pdftex.def Info: Bileter/T1DER.png  used on input line 190.
+Package pdftex.def Info: Bileter/T1DER.png  used on input line 193.
 (pdftex.def)             Requested size: 284.56738pt x 200.25111pt.
  [11 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/TDER.png> </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/T1DER.png>] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 243--250
+Underfull \hbox (badness 10000) in paragraph at lines 246--253
 
  []
 
@@ -454,22 +454,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--250
 <Bileter/NumeriskDerivasjon.png, id=233, 1091.07625pt x 627.34375pt>
 File: Bileter/NumeriskDerivasjon.png Graphic file (type png)
 <use Bileter/NumeriskDerivasjon.png>
-Package pdftex.def Info: Bileter/NumeriskDerivasjon.png  used on input line 290.
+Package pdftex.def Info: Bileter/NumeriskDerivasjon.png  used on input line 293.
 (pdftex.def)             Requested size: 327.3254pt x 188.20457pt.
  [14 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/NumeriskDerivasjon.png>] [15]
-Overfull \hbox (16.46515pt too wide) in paragraph at lines 355--361
+Overfull \hbox (16.46515pt too wide) in paragraph at lines 358--364
 \OT1/cmr/m/n/10 Denne ver-di-en er s^^Zr-leg n^^Zr den nu-me-ris-ke intre-gra-sjo-nen med eit av-vik p^^Wa ber-re $14350659\OML/cmm/m/it/10 tonn \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 14350000\OML/cmm/m/it/10 tonn \OT1/cmr/m/n/10 =
  []
 
 [16]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 398.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 401.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [17]
 <Bileter/MultiVariabel.png, id=254, 1106.1325pt x 518.93875pt>
 File: Bileter/MultiVariabel.png Graphic file (type png)
 <use Bileter/MultiVariabel.png>
-Package pdftex.def Info: Bileter/MultiVariabel.png  used on input line 445.
+Package pdftex.def Info: Bileter/MultiVariabel.png  used on input line 448.
 (pdftex.def)             Requested size: 442.44516pt x 207.57182pt.
  [18] [19 </Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/Bileter/MultiVariabel.png>] [20]
 Kapittel 4.
@@ -486,27 +486,27 @@ Kapittel 6.
 ]
 Kapittel 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--504
+Underfull \hbox (badness 10000) in paragraph at lines 499--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--504
+Underfull \hbox (badness 10000) in paragraph at lines 499--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--504
+Underfull \hbox (badness 10000) in paragraph at lines 499--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--504
+Underfull \hbox (badness 10000) in paragraph at lines 499--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--504
+Underfull \hbox (badness 10000) in paragraph at lines 499--507
 
  []
 
@@ -523,9 +523,9 @@ Here is how much of TeX's memory you used:
  27189 multiletter control sequences out of 15000+600000
  408123 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,74p,1431b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,74p,1467b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.pdf" (25 pages, 2458664 bytes).
+Output written on "/Users/areolsen/Downloads/Matematikk-prosjekt/Matematikk prosjekt/rapport.pdf" (25 pages, 2458726 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  283 compressed objects within 3 object streams
